@@ -66,7 +66,6 @@ import UIKit
 //print(fruits)           // []
 
 
-
 // デフォルト値で配列を作成する
 var threeDoubles = Array(repeating: 0.0, count: 3)
 print(threeDoubles)
