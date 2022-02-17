@@ -1,5 +1,9 @@
 import UIKit
 
+let sameDataType = ("りんご", "りんご")
+print(sameDataType) // ("りんご", "りんご")
+print(type(of: sameDataType)) // (String, String)
+
 let mixDataType = (100, "", true, 2.55)
 print(mixDataType)           // (1, "こんにちは", true, 2.55)
 print(mixDataType.0)         // 1
@@ -38,3 +42,5 @@ print(parts.firstName) // さくら
 
 let mixDataTypeOnLabel = (id: 120, status: true, score: 135.50,  message: "ごきげんよう")
 print(type(of: mixDataTypeOnLabel)) // (id: Int, message: String, status: Bool, point: Double)
+
+
